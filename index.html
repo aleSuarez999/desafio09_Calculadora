@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - Desafio 09</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        
+        <main>
+            <div id="calc_container">
+                <h1>CALCULADORA</h1>        
+                <div class="user_input">
+                    <label for="nro1">Nro1
+                        <input type="number" class="input" name="nro1" id="nro1">
+                        <span id="nro1-error"></span>
+                    </label>
+                    <label for="nro2">Nro2
+                        <input type="number" class="input" name="nro2" id="nro2">
+                        <span id="nro2-error"></span>
+                    </label>
+                </div>
+                <div class="operaciones">
+                    <button class="btn_ope" id="suma"> + </button>
+                    <button class="btn_ope" id="resta"> - </button>
+                    <button class="btn_ope" id="multiplicacion"> * </button>
+                    <button class="btn_ope" id="division"> / </button>
+                </div>
+
+                <div class="display">
+                    <div class="reesult" id="reesult"></div>
+                    <input type="text" disabled class="result" id="result">
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/calculator.js"></script>
+</body>
+</html>
