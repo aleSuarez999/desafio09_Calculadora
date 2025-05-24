@@ -28,7 +28,8 @@ Requerimientos no funcionales:
 Pasos a realizar:
 
 1.Crear un archivo HTML con los elementos necesarios para la calculadora, 
-incluyendo los campos de entrada para los números, los botones para las operaciones y la pantalla de resultados.
+incluyendo los campos de entrada para los números, los botones para las operaciones
+ y la pantalla de resultados.
 
 2.Agregar un archivo JavaScript y enlazarlo con el archivo HTML.
 3.Crear variables para los elementos HTML que se utilizarán en el código, como los campos de entrada y 
@@ -39,5 +40,6 @@ la pantalla de resultados.
  ingresados por el usuario como entrada y devuelve el resultado de la operación.
 6.Agregar código para mostrar el resultado de la operación en la pantalla de resultados después de que
  se realice la operación.
-7.Agregar código para manejar errores, como la entrada de caracteres no numéricos o la división por cero.
+7.Agregar código para manejar errores, 
+como la entrada de caracteres no numéricos o la división por cero.
 8.Probar la calculadora para asegurarse de que funciona correctamente.

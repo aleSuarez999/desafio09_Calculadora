@@ -23,7 +23,8 @@ const getNro = (nro) => {
 
 const botones = document.querySelectorAll("button")
 
- const validateInt = (number) => number && parseInt(number) >= 0;
+ //const validateInt = (number) => number && parseInt(number) >= 0;
+ const validateInt = (number) => number;
 
  botones.forEach(boton => {
     boton.addEventListener("click", () =>{
@@ -70,7 +71,7 @@ const ejecutar = (nro1, nro2, operacion) => {
                 resultado = eval(nro1 + operacion + nro2)
             else
             {
-                resultado = "Error! Div / 0"
+                resultado = "Error! Div/0"
                 setError("nro2", "nro invalido")
             }
             //alert("division")
